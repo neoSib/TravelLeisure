@@ -68,11 +68,11 @@ a {
 }
 
 .gallery {
-  animation: fader 20s linear infinite;
+  animation: fader 17s linear infinite;
   position: relative;
   background: url(../img/cover1.png);
   background-size: cover;
-  animation: slide 20s infinite;
+  animation: slide 15s infinite;
 }
 
 .gallery .caption h5 {
@@ -91,11 +91,11 @@ a {
     background-size: cover;
   }
   75% {
-    background: url(../img/cover1.png);
+    background: url(../img/cover4.png);
     background-size: cover;
   }
   100% {
-    background: url(../img/cover2.png);
+    background: url(../img/cover5.png);
     background-size: cover;
   }
 }
@@ -152,7 +152,7 @@ a {
 
 .weather .celcius {
   padding: 20px 10px 20px 10px;
-  font-size: 30px;
+  font-size: 28px;
   font-family: Impact;
   text-align: center;
   vertical-align: middle;
