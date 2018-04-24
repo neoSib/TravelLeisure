@@ -55,6 +55,7 @@ a {
 
 .nav-wrapper img {
   margin-top: 5px;
+  margin-left: 40px;
   width: 90%;
 }
 
@@ -134,10 +135,10 @@ a {
 .weather {
   width: 130px;
   background: #a2c6e0; /* Old browsers */
-  background: -moz-linear-gradient(top, #a2c6e0 0%, #4c8dbb 50%, #183f6a 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #a2c6e0 0%,#4c8dbb 50%,#183f6a 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #a2c6e0 0%,#4c8dbb 50%,#183f6a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2c6e0', endColorstr='#183f6a',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(45deg, #a2c6e0 0%, #4c8dbb 50%, #183f6a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #a2c6e0 0%,#4c8dbb 50%,#183f6a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #a2c6e0 0%,#4c8dbb 50%,#183f6a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2c6e0', endColorstr='#183f6a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   margin: 40px auto;
   border-radius: 10px;
 }
@@ -159,7 +160,8 @@ a {
 
 .weather p {
   font-size: 13px;
-  margin: 0;
+  margin-top: 0;
+  padding-bottom: 5px;
 }
 
 .weather .action {
@@ -229,6 +231,10 @@ a {
 
 .offers .card {
   position: relative;
+}
+
+.offers .card .card-content {
+  padding: 0;
 }
 
 .offers .card .border {

@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var apiCall = 'http://api.openweathermap.org/data/2.5/weather?q=London&appid=7ba78c0c7f8103d0c7cb370edccebc9e';
+    var apiCall = 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=7ba78c0c7f8103d0c7cb370edccebc9e';
 
     $.ajax({
       url: apiCall,
@@ -13,7 +13,7 @@ $(document).ready(function () {
         var description = weatherData.weather[0].description;
         var celcius = '&deg;C';
 
-        console.log(cityName +" "+ country +" "+ tempreture +" "+ description);
+        //console.log(cityName +" "+ country +" "+ tempreture +" "+ description);
 
         $('.weather .card-title').append(cityName + "," + country);
         $('.weather p').append(description);
