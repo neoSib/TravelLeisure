@@ -25,8 +25,10 @@ $(document).ready(function () {
 // adding animation to the offer images
     $('.offers img').hover(function() {
         $(this).addClass('transition');
-        
+
     }, function() {
         $(this).removeClass('transition');
     });
+
+
 });
